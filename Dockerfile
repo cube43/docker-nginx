@@ -1,7 +1,5 @@
 FROM nginx:alpine
 
-# modified version from php:alpine image
-
 # ensure www-data user exists
 RUN set -x ; \
   addgroup -g 82 -S www-data ; \
